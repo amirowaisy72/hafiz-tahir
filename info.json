@@ -1,0 +1,224 @@
+{
+    "Commission": {
+        "Seller": {
+          "Gandum": {
+            "Formula": { "$numberInt": "1" },
+            "Info": "% of total amount"
+          },
+          "Kapaas": {
+            "Formula": { "$numberInt": "1" },
+            "Info": "% of total amount"
+          },
+          "Sarson": {
+            "Formula": { "$numberDouble": "2.5" },
+            "Info": "% of total amount"
+          },
+          "Mirch": {
+            "Formula": { "$numberInt": "5" },
+            "Info": "% of total amount"
+          },
+          "Moonji": {
+            "Formula": { "$numberInt": "3" },
+            "Info": "% of total amount"
+          },
+          "Others": {
+            "Formula": { "$numberInt": "3" },
+            "Info": "% of total amount"
+          }
+        },
+        "Buyer": {
+          "Gandum": {
+            "Formula": { "$numberDouble": "0.5" },
+            "Info": "% of total amount"
+          },
+          "Kapaas": {
+            "Formula": { "$numberInt": "1" },
+            "Info": "% of total amount"
+          },
+          "Others": {
+            "Formula": { "$numberDouble": "1.5" },
+            "Info": "% of total amount"
+          }
+        }
+      },
+      "Mazduri": {
+        "Seller": {
+          "Gandum": {
+            "Formula": {
+              "CompleteBag": { "$numberInt": "25" },
+              "IncompleteBag": { "$numberInt": "15" }
+            },
+            "Info": ""
+          },
+          "Kapaas": {
+            "Formula": { "PerMand": { "$numberInt": "20" } },
+            "Info": ""
+          },
+          "Sarson": {
+            "Formula": {
+              "CompleteBag": { "$numberInt": "25" },
+              "IncompleteBag": { "$numberInt": "18" }
+            },
+            "Info": ""
+          },
+          "Mirch": { "Formula": { "PerKg": { "$numberInt": "2" } }, "Info": "" },
+          "Moonji": {
+            "Formula": { "CompleteBag": { "$numberInt": "18" } },
+            "Info": ""
+          },
+          "Others": {
+            "Formula": {
+              "CompleteBag": { "$numberInt": "25" },
+              "IncompleteBag": { "$numberInt": "15" }
+            },
+            "Info": ""
+          }
+        },
+        "Buyer": {
+          "Gandum": {
+            "Formula": {
+              "CompleteBag": { "$numberInt": "10" },
+              "IncompleteBag": { "$numberInt": "6" }
+            },
+            "Info": ""
+          },
+          "Kapaas": {
+            "Formula": { "PerMand": { "$numberInt": "5" } },
+            "Info": ""
+          },
+          "Others": {
+            "Formula": {
+              "CompleteBag": { "$numberInt": "10" },
+              "IncompleteBag": { "$numberInt": "6" }
+            },
+            "Info": ""
+          }
+        }
+      },
+      "Brokery": {
+        "Seller": {
+          "Gandum": {
+            "Formula": { "$numberDouble": "0.07" },
+            "Info": "% of total amount"
+          },
+          "Kapaas": {
+            "Formula": { "$numberDouble": "0.07" },
+            "Info": "% of total amount"
+          },
+          "Sarson": {
+            "Formula": { "$numberDouble": "0.2" },
+            "Info": "% of total amount"
+          },
+          "Mirch": {
+            "Formula": { "$numberDouble": "0.2" },
+            "Info": "% of total amount"
+          },
+          "Moonji": {
+            "Formula": { "$numberDouble": "0.2" },
+            "Info": "% of total amount"
+          },
+          "Others": {
+            "Formula": { "$numberDouble": "0.2" },
+            "Info": "% of total amount"
+          }
+        },
+        "Buyer": null
+      },
+      "Accountant": {
+        "Seller": {
+          "Gandum": {
+            "Formula": { "$numberDouble": "0.1" },
+            "Info": "% of total amount"
+          },
+          "Kapaas": {
+            "Formula": { "$numberDouble": "0.1" },
+            "Info": "% of total amount"
+          },
+          "Sarson": {
+            "Formula": { "$numberDouble": "0.2" },
+            "Info": "% of total amount"
+          },
+          "Mirch": {
+            "Formula": { "$numberDouble": "0.2" },
+            "Info": "% of total amount"
+          },
+          "Moonji": {
+            "Formula": { "$numberDouble": "0.2" },
+            "Info": "% of total amount"
+          },
+          "Others": {
+            "Formula": { "$numberDouble": "0.2" },
+            "Info": "% of total amount"
+          }
+        },
+        "Buyer": null
+      },
+      "Market Fee": {
+        "Seller": null,
+        "Buyer": {
+          "Gandum": {
+            "Formula": { "$numberInt": "2" },
+            "Info": "per Quintal (only for non-member)"
+          },
+          "Kapaas": {
+            "Formula": { "$numberInt": "2" },
+            "Info": "per Quintal (only for non-member)"
+          },
+          "Others": {
+            "Formula": { "$numberInt": "2" },
+            "Info": "per Quintal (only for non-member)"
+          }
+        }
+      },
+      "Sootli": {
+        "Seller": null,
+        "Buyer": {
+          "Gandum": {
+            "Formula": {
+              "CompleteBag": { "$numberInt": "4" },
+              "IncompleteBag": { "$numberInt": "2" }
+            },
+            "Info": ""
+          },
+          "Others": {
+            "Formula": {
+              "CompleteBag": { "$numberInt": "4" },
+              "IncompleteBag": { "$numberInt": "2" }
+            },
+            "Info": ""
+          },
+          "Kapaas": { "Formula": null, "Info": "Not Applicable" }
+        }
+      },
+      "Ghisai": {
+        "Seller": null,
+        "Buyer": {
+          "Kapaas": {
+            "Formula": { "PerMand": { "$numberInt": "5" } },
+            "Info": ""
+          },
+          "Gandum": { "Formula": null, "Info": "Not Applicable" },
+          "Others": { "Formula": null, "Info": "Not Applicable" }
+        }
+      },
+      "Silai": {
+        "Seller": null,
+        "Buyer": {
+          "Gandum": {
+            "Formula": {
+              "CompleteBag": { "$numberInt": "2" },
+              "IncompleteBag": { "$numberInt": "1" }
+            },
+            "Info": ""
+          },
+          "Others": {
+            "Formula": {
+              "CompleteBag": { "$numberInt": "2" },
+              "IncompleteBag": { "$numberInt": "1" }
+            },
+            "Info": ""
+          },
+          "Kapaas": { "Formula": null, "Info": "Not Applicable" }
+        }
+      }
+}
