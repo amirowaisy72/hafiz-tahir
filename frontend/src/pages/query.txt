@@ -1,0 +1,9 @@
+{guarranter ||
+            (guarrenty && (
+              <div>
+                <h3>گارنٹر: {guarranter}</h3>
+                <h3>گارنٹی: {guarrenty}</h3>
+              </div>
+            ))}
+
+i want guarranter left floated and guarranty right floated
