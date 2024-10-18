@@ -3,7 +3,6 @@ const router = express.Router();
 const nodemailer = require("nodemailer");
 const AdminRoles = require("../models/AdminRoles");
 const jwt = require("jsonwebtoken");
-const bcrypt = require("bcrypt"); // Import bcrypt for password hashing
 
 // Secret key for JWT (replace with your own secret key)
 const JWT_SECRET = "iamamirowaisy";
